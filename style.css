@@ -1,5 +1,63 @@
 body {
-  width: 100%;
-  height: 100%;
+  background-color: rgb(225, 208, 236);
+  width: auto;
+  height: auto;
   margin: 0;
+  color: rgb(19, 17, 17);
+
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding: auto;
+}
+
+header {
+ text-align: center;
+ height: auto;
+width: auto;
+}
+
+#featured-property
+{
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+nav{
+  word-spacing: 10px;
+}
+
+
+p {
+  font-size: 1em;
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: center;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#details{
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: rgb(171, 152, 183);
+  float: left;
+  display: flex;
+  justify-content: space-between;
+ width: 80%;
+}
+h1 {
+  font-size: 1.5em;
+  margin-bottom: 1%;
+  text-shadow: rgb(120, 108, 108) 2px 1px;
+  opacity: 95%;
+}
+figcaption {
+  text-align: center;
 }
